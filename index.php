@@ -3,6 +3,7 @@
     <title>PHP Test</title>
   </head>
   <body>
-  <?php echo 'PHP Test 2'; ?> 
+  <p><?php echo 'PHP Test 2'; ?></p>
+  <p><?php echo $_SERVER['SERVER_ADDR']?></p>
   </body>
 </html>
